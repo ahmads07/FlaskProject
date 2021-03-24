@@ -9,7 +9,7 @@ CORS(app)
 def hello_world():
     return 'Hello World!'
 
-@app.route('/getNetIncome/', methods=['POST'])
+@app.route('//', methods=['POST'])
 def netIncome():
     gross_income = request.get_json()
     print(gross_income)
